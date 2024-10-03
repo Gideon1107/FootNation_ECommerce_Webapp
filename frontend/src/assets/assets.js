@@ -8,10 +8,53 @@ import AdidasLA_2 from './AdidasLA_2.png'
 import AdidasLA_3 from './AdidasLA_3.png'
 import AdidasLA_4 from './AdidasLA_4.png'
 
+import AdidasGaz_1 from './AdidasGaz_1.png'
+import AdidasGaz_2 from './AdidasGaz_2.png'
+import AdidasGaz_3 from './AdidasGaz_3.png'
+import AdidasGaz_4 from './AdidasGaz_4.png'
+
+
+import Newbal1906_1 from './Newbal1906_1.png'
+import Newbal1906_2 from './Newbal1906_2.png'
+import Newbal1906_3 from './Newbal1906_3.png'
+import Newbal1906_4 from './Newbal1906_4.png'
+
+import Newbal327_1 from './Newbal327_1.png'
+import Newbal327_2 from './Newbal327_2.png'
+import Newbal327_3 from './Newbal327_3.png'
+import Newbal327_4 from './Newbal327_4.png'
+
+
+import Newbal9060_1 from './Newbal9060_1.png'
+import Newbal9060_2 from './Newbal9060_2.png'
+import Newbal9060_3 from './Newbal9060_3.png'
+import Newbal9060_4 from './Newbal9060_4.png'
+
+import MerrellMoab2_1 from './MerrellMoab2_1.png'
+import MerrellMoab2_2 from './MerrellMoab2_2.png'
+import MerrellMoab2_3 from './MerrellMoab2_3.png'
+import MerrellMoab2_4 from './MerrellMoab2_4.png'
+
+import MerrellMaob_1 from './MerrellMaob_1.png'
+import MerrellMaob_2 from './MerrellMaob_2.png'
+import MerrellMaob_3 from './MerrellMaob_3.png'
+import MerrellMaob_4 from './MerrellMaob_4.png'
+
+import UggTazz_1 from './UggTazz_1.png'
+import UggTazz_2 from './UggTazz_2.png'
+import UggTazz_3 from './UggTazz_3.png'
+import UggTazz_4 from './UggTazz_4.png'
+
+import PumaEasy_1 from './PumaEasy_1.png'
+import PumaEasy_2 from './PumaEasy_2.png'
+import PumaEasy_3 from './PumaEasy_3.png'
+import PumaEasy_4 from './PumaEasy_4.png'
 
 
 
-import logo from './logo1.png'
+
+
+import logo from './logo2.png'
 import hero_img from './hero8.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
@@ -78,97 +121,97 @@ export const products = [
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
+        name: "Adidas Originals Gazelle",
+        description: "adidas Originals Gazelle",
+        price: 85,
+        image: [AdidasGaz_1,AdidasGaz_2,AdidasGaz_3,AdidasGaz_4],
+        category: "Men",
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [],
+        name: "New Balance 1906R",
+        description: "New Balance 1906R",
+        price: 140,
+        image: [Newbal1906_1,Newbal1906_2,Newbal1906_3,Newbal1906_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "New Balance 327",
+        description: "New Balance 327",
+        price: 110,
+        image: [Newbal327_1,Newbal327_2,Newbal327_3,Newbal327_4],
+        category: "Men",
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716622345448,
         bestseller: true
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
+        name: "New Balance 9060",
+        description: "New Balance 9060",
+        price: 160,
+        image: [Newbal9060_1, Newbal9060_2,Newbal9060_3,Newbal9060_4],
+        category: "Men",
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716623423448,
         bestseller: true
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [],
+        name: "Merrell Moab Speed 2 GORE-TEX",
+        description: "Merrell Moab Speed 2 GORE-TEX",
+        price: 150,
+        image: [MerrellMoab2_1,MerrellMoab2_2,MerrellMoab2_3,MerrellMoab2_4],
         category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
+        subCategory: "Classictrainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621542448,
         bestseller: false
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Merrell Moab Speed GORE-TEX",
+        description: "Merrell Moab Speed GORE-TEX",
         price: 140,
-        image: [],
+        image: [MerrellMaob_1,MerrellMaob_2,MerrellMaob_3,MerrellMaob_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716622345448,
         bestseller: false
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "UGG Tazz Platform Women's",
+        description: "UGG Tazz Platform Women's",
+        price: 115,
+        image: [UggTazz_1,UggTazz_2,UggTazz_3,UggTazz_4],
+        category: "Women",
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716621235448,
         bestseller: false
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
+        name: "PUMA Easy Rider Vintage Women's",
+        description: "PUMA Easy Rider Vintage Women's",
+        price: 80,
+        image: [PumaEasy_1,PumaEasy_2,PumaEasy_3,PumaEasy_4],
+        category: "Women",
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716622235448,
         bestseller: false
     },
