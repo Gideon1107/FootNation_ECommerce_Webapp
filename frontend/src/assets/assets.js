@@ -54,7 +54,7 @@ import PumaEasy_4 from './PumaEasy_4.png'
 
 
 
-import logo from './logo2.png'
+import logo from './logo3.png'
 import hero_img from './hero8.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
