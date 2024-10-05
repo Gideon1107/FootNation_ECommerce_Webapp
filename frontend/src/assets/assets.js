@@ -117,7 +117,7 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaac",
@@ -129,7 +129,7 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716234545448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaad",
@@ -177,7 +177,7 @@ export const products = [
         subCategory: "Classictrainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621542448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaah",
