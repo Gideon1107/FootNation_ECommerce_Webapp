@@ -2,55 +2,58 @@ import Airmax95_1 from './Airmax95_1.png'
 import Airmax95_2 from './Airmax95_2.png'
 import Airmax95_3 from './Airmax95_3.png'
 import Airmax95_4 from './Airmax95_4.png'
-
 import AdidasLA_1 from './AdidasLA_1.png'
 import AdidasLA_2 from './AdidasLA_2.png'
 import AdidasLA_3 from './AdidasLA_3.png'
 import AdidasLA_4 from './AdidasLA_4.png'
-
 import AdidasGaz_1 from './AdidasGaz_1.png'
 import AdidasGaz_2 from './AdidasGaz_2.png'
 import AdidasGaz_3 from './AdidasGaz_3.png'
 import AdidasGaz_4 from './AdidasGaz_4.png'
-
-
 import Newbal1906_1 from './Newbal1906_1.png'
 import Newbal1906_2 from './Newbal1906_2.png'
 import Newbal1906_3 from './Newbal1906_3.png'
 import Newbal1906_4 from './Newbal1906_4.png'
-
 import Newbal327_1 from './Newbal327_1.png'
 import Newbal327_2 from './Newbal327_2.png'
 import Newbal327_3 from './Newbal327_3.png'
 import Newbal327_4 from './Newbal327_4.png'
-
-
 import Newbal9060_1 from './Newbal9060_1.png'
 import Newbal9060_2 from './Newbal9060_2.png'
 import Newbal9060_3 from './Newbal9060_3.png'
 import Newbal9060_4 from './Newbal9060_4.png'
-
 import MerrellMoab2_1 from './MerrellMoab2_1.png'
 import MerrellMoab2_2 from './MerrellMoab2_2.png'
 import MerrellMoab2_3 from './MerrellMoab2_3.png'
 import MerrellMoab2_4 from './MerrellMoab2_4.png'
-
 import MerrellMaob_1 from './MerrellMaob_1.png'
 import MerrellMaob_2 from './MerrellMaob_2.png'
 import MerrellMaob_3 from './MerrellMaob_3.png'
 import MerrellMaob_4 from './MerrellMaob_4.png'
-
 import UggTazz_1 from './UggTazz_1.png'
 import UggTazz_2 from './UggTazz_2.png'
 import UggTazz_3 from './UggTazz_3.png'
 import UggTazz_4 from './UggTazz_4.png'
-
 import PumaEasy_1 from './PumaEasy_1.png'
 import PumaEasy_2 from './PumaEasy_2.png'
 import PumaEasy_3 from './PumaEasy_3.png'
 import PumaEasy_4 from './PumaEasy_4.png'
-
-
+import AdidasBold_1 from './AdidasBold_1.png'
+import AdidasBold_2 from './AdidasBold_2.png'
+import AdidasBold_3 from './AdidasBold_3.png'
+import AdidasBold_4 from './AdidasBold_4.png'
+import NikeAirDn_1 from './NikeAirDn_1.png'
+import NikeAirDn_2 from './NikeAirDn_2.png'
+import NikeAirDn_3 from './NikeAirDn_3.png'
+import NikeAirDn_4 from './NikeAirDn_4.png'
+import NikeAirChi_1 from './NikeAirChi_1.png'
+import NikeAirChi_2 from './NikeAirChi_2.png'
+import NikeAirChi_3 from './NikeAirChi_3.png'
+import NikeAirChi_4 from './NikeAirChi_4.png'
+import NewBal530Chi_1 from './NewBal530Chi_1.png'
+import NewBal530Chi_2 from './NewBal530Chi_2.png'
+import NewBal530Chi_3 from './NewBal530Chi_3.png'
+import NewBal530Chi_4 from './NewBal530Chi_4.png'
 
 
 
@@ -105,19 +108,19 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaab",
-        name: "Adidas Originals LA Trainer",
-        description: "Adidas Originals LA Trainer",
-        price: 85,
-        image: [AdidasLA_1,AdidasLA_2,AdidasLA_3,AdidasLA_4],
-        category: "Men",
-        subCategory: "Trainers",
-        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
-        date: 1716621345448,
-        bestseller: false
+        name: "Adidas Originals Gazelle Bold Women's",
+        description: "Adidas Originals Gazelle Bold Women's",
+        price: 95,
+        image: [AdidasBold_1,AdidasBold_2,AdidasBold_3,AdidasBold_4],
+        category: "Women",
+        subCategory: "Classic-trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
+        date: 1716623345448,
+        bestseller: true
     },
     {
         _id: "aaaac",
@@ -153,7 +156,7 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716622345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaaf",
@@ -174,7 +177,7 @@ export const products = [
         price: 150,
         image: [MerrellMoab2_1,MerrellMoab2_2,MerrellMoab2_3,MerrellMoab2_4],
         category: "Men",
-        subCategory: "Classictrainers",
+        subCategory: "Classic-trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621542448,
         bestseller: true
@@ -198,7 +201,7 @@ export const products = [
         price: 115,
         image: [UggTazz_1,UggTazz_2,UggTazz_3,UggTazz_4],
         category: "Women",
-        subCategory: "Trainers",
+        subCategory: "Flip-flops",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716621235448,
         bestseller: false
@@ -217,49 +220,49 @@ export const products = [
     },
     {
         _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 120,
-        image: [],
+        name: "Adidas Originals LA Trainer",
+        description: "Adidas Originals LA Trainer",
+        price: 85,
+        image: [AdidasLA_1,AdidasLA_2,AdidasLA_3,AdidasLA_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716623345448,
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
+        date: 1716621345448,
         bestseller: false
     },
     {
         _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Nike Air Max Dn Women's",
+        description: "Nike Air Max Dn Women's",
+        price: 155,
+        image: [NikeAirDn_1,NikeAirDn_2,NikeAirDn_3,NikeAirDn_4],
+        category: "Women",
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716624445448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Nike Air Force 1 '07 LV8 Children",
+        description: "Nike Air Force 1 '07 LV8 Children",
         price: 130,
-        image: [],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        image: [NikeAirChi_1,NikeAirChi_2,NikeAirChi_3,NikeAirChi_4],
+        category: "Kids",
+        subCategory: "Trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI"],
         date: 1716625545448,
         bestseller: false
     },
     {
         _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "New Balance 530 Children",
+        description: "New Balance 530 Children",
         price: 160,
-        image: [],
+        image: [NewBal530Chi_1,NewBal530Chi_2,NewBal530Chi_3,NewBal530Chi_4],
         category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716626645448,
         bestseller: false
     },
