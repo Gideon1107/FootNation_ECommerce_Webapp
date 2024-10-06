@@ -124,6 +124,7 @@ import Fearia_4 from './Fearia_4.png'
 
 
 
+
 import logo from './logo3.png'
 import hero_img from './hero8.jpg'
 import cart_icon from './cart_icon.png'
