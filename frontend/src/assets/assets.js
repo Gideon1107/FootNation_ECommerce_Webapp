@@ -118,12 +118,86 @@ import Fearia_1 from './Fearia_1.png'
 import Fearia_2 from './Fearia_2.png'
 import Fearia_3 from './Fearia_3.png'
 import Fearia_4 from './Fearia_4.png'
-
-
-
-
-
-
+import UggKid_1 from './UggKid_1.png'
+import UggKid_2 from './UggKid_2.png'
+import UggKid_3 from './UggKid_3.png'
+import UggKid_4 from './UggKid_4.png'
+import NewBal9060Women_1 from './NewBal9060Women_1.png'
+import NewBal9060Women_2 from './NewBal9060Women_2.png'
+import NewBal9060Women_3 from './NewBal9060Women_3.png'
+import NewBal9060Women_4 from './NewBal9060Women_4.png'
+import OnRunningWomen_1 from './OnRunningWomen_1.png'
+import OnRunningWomen_2 from './OnRunningWomen_2.png'
+import OnRunningWomen_3 from './OnRunningWomen_3.png'
+import OnRunningWomen_4 from './OnRunningWomen_4.png'
+import NikeMetconWomen_1 from './NikeMetconWomen_1.png'
+import NikeMetconWomen_2 from './NikeMetconWomen_2.png'
+import NikeMetconWomen_3 from './NikeMetconWomen_3.png'
+import NikeMetconWomen_4 from './NikeMetconWomen_4.png'
+import TimberlandWomen_1 from './TimberlandWomen_1.png'
+import TimberlandWomen_2 from './TimberlandWomen_2.png'
+import TimberlandWomen_3 from './TimberlandWomen_3.png'
+import TimberlandWomen_4 from './TimberlandWomen_4.png'
+import LacosteSlideMen_1 from './LacosteSlideMen_1.png'
+import LacosteSlideMen_2 from './LacosteSlideMen_2.png'
+import LacosteSlideMen_3 from './LacosteSlideMen_3.png'
+import LacosteSlideMen_4 from './LacosteSlideMen_4.png'
+import AdidasSLMen_1 from './AdidasSLMen_1.png'
+import AdidasSLMen_2 from './AdidasSLMen_2.png'
+import AdidasSLMen_3 from './AdidasSLMen_3.png'
+import AdidasSLMen_4 from './AdidasSLMen_4.png'
+import JordanSpizikeMen_1 from './JordanSpizikeMen_1.png'
+import JordanSpizikeMen_2 from './JordanSpizikeMen_2.png'
+import JordanSpizikeMen_3 from './JordanSpizikeMen_3.png'
+import JordanSpizikeMen_4 from './JordanSpizikeMen_4.png'
+import TimberlandUltraMen_1 from './TimberlandUltraMen_1.png'
+import TimberlandUltraMen_2 from './TimberlandUltraMen_2.png'
+import TimberlandUltraMen_3 from './TimberlandUltraMen_3.png'
+import TimberlandUltraMen_4 from './TimberlandUltraMen_4.png'
+import AdidasSportKid_1 from './AdidasSportKid_1.png'
+import AdidasSportKid_2 from './AdidasSportKid_2.png'
+import AdidasSportKid_3 from './AdidasSportKid_3.png'
+import AdidasSportKid_4 from './AdidasSportKid_4.png'
+import FilaKid_1 from './FilaKid_1.png'
+import FilaKid_2 from './FilaKid_2.png'
+import FilaKid_3 from './FilaKid_3.png'
+import FilaKid_4 from './FilaKid_4.png'
+import AdidasBoldWomen_1 from './AdidasBoldWomen_1.png'
+import AdidasBoldWomen_2 from './AdidasBoldWomen_2.png'
+import AdidasBoldWomen_3 from './AdidasBoldWomen_3.png'
+import AdidasBoldWomen_4 from './AdidasBoldWomen_4.png'
+import NikeVictoriSlide_1 from './NikeVictoriSlide_1.png'
+import NikeVictoriSlide_2 from './NikeVictoriSlide_2.png'
+import NikeVictoriSlide_3 from './NikeVictoriSlide_3.png'
+import NikeVictoriSlide_4 from './NikeVictoriSlide_4.png'
+import Lacoste2024_1 from './Lacoste2024_1.png'
+import Lacoste2024_2 from './Lacoste2024_2.png'
+import Lacoste2024_3 from './Lacoste2024_3.png'
+import Lacoste2024_4 from './Lacoste2024_4.png'
+import ReebookInfant_1 from './ReebookInfant_1.png'
+import ReebookInfant_2 from './ReebookInfant_2.png'
+import ReebookInfant_3 from './ReebookInfant_3.png'
+import ReebookInfant_4 from './ReebookInfant_4.png'
+import OnRunningMonster_1 from './OnRunningMonster_1.png'
+import OnRunningMonster_2 from './OnRunningMonster_2.png'
+import OnRunningMonster_3 from './OnRunningMonster_3.png'
+import OnRunningMonster_4 from './OnRunningMonster_4.png'
+import AdidasSLKid_1 from './AdidasSLKid_1.png'
+import AdidasSLKid_2 from './AdidasSLKid_2.png'
+import AdidasSLKid_3 from './AdidasSLKid_3.png'
+import AdidasSLKid_4 from './AdidasSLKid_4.png'
+import ReebookNylonKid_1 from './ReebookNylonKid_1.png'
+import ReebookNylonKid_2 from './ReebookNylonKid_2.png'
+import ReebookNylonKid_3 from './ReebookNylonKid_3.png'
+import ReebookNylonKid_4 from './ReebookNylonKid_4.png'
+import AdidasSuperstar_1 from './AdidasSuperstar_1.png'
+import AdidasSuperstar_2 from './AdidasSuperstar_2.png'
+import AdidasSuperstar_3 from './AdidasSuperstar_3.png'
+import AdidasSuperstar_4 from './AdidasSuperstar_4.png'
+import ConverseStarWomen_1 from './ConverseStarWomen_1.png'
+import ConverseStarWomen_2 from './ConverseStarWomen_2.png'
+import ConverseStarWomen_3 from './ConverseStarWomen_3.png'
+import ConverseStarWomen_4 from './ConverseStarWomen_4.png'
 
 
 
@@ -563,240 +637,241 @@ export const products = [
     },
     {
         _id: "aaabg",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [],
+        name: "UGG Tazz Children",
+        description: "UGG Tazz Children",
+        price: 80,
+        image: [UggKid_1,UggKid_2, UggKid_3, UggKid_4],
         category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Flip-flops",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716647545448,
         bestseller: false
     },
     {
         _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [],
+        name: "New Balance 9060 Women's",
+        description: "New Balance 9060 Women's",
+        price: 160,
+        image: [NewBal9060Women_1, NewBal9060Women_2, NewBal9060Women_3, NewBal9060Women_4],
         category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716648645448,
         bestseller: false
     },
     {
         _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [],
+        name: "On Running Cloudmonster Women's",
+        description: "On Running Cloudmonster Women's",
+        price: 160,
+        image: [OnRunningWomen_1, OnRunningWomen_2, OnRunningWomen_3, OnRunningWomen_4],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716649745448,
         bestseller: false
     },
     {
         _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [],
+        name: "Nike Free Metcon 5 Women's",
+        description: "Nike Free Metcon 5 Women's",
+        price: 120,
+        image: [NikeMetconWomen_1, NikeMetconWomen_2, NikeMetconWomen_3, NikeMetconWomen_4],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716650845448,
         bestseller: false
     },
     {
         _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [],
+        name: "Timberland Mid Warm Lined Waterproof Boot",
+        description: "Timberland Mid Warm Lined Waterproof Boot",
+        price: 190,
+        image: [TimberlandWomen_1, TimberlandWomen_2, TimberlandWomen_3, TimberlandWomen_4],
         category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Boots",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716651945448,
         bestseller: false
     },
     {
         _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [],
+        name: "Lacoste Serve Pin Slides",
+        description: "Lacoste Serve Pin Slides",
+        price: 45,
+        image: [LacosteSlideMen_1, LacosteSlideMen_2, LacosteSlideMen_3, LacosteSlideMen_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Flip-flops",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716653045448,
         bestseller: false
     },
     {
         _id: "aaabm",
-        name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [],
+        name: "Adidas Originals SL 72 RS",
+        description: "Adidas Originals SL 72 RS",
+        price: 80,
+        image: [AdidasSLMen_1, AdidasSLMen_2, AdidasSLMen_3, AdidasSLMen_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Classic-trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716654145448,
         bestseller: false
     },
     {
         _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [],
+        name: "Jordan Spizike Low",
+        description: "Jordan Spizike Low",
+        price: 155,
+        image: [JordanSpizikeMen_1, JordanSpizikeMen_2, JordanSpizikeMen_3, JordanSpizikeMen_4],
         category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716655245448,
         bestseller: false
     },
     {
         _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [],
+        name: "Timberland 6 Ultra",
+        description: "Timberland 6 Ultra",
+        price: 170,
+        image: [TimberlandUltraMen_1, TimberlandUltraMen_2, TimberlandUltraMen_3, TimberlandUltraMen_4],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Boots",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716656345448,
         bestseller: false
     },
     {
         _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [],
+        name: "Adidas Tensaur Sport Children",
+        description: "Adidas Tensaur Sport Children",
+        price: 28,
+        image: [AdidasSportKid_1, AdidasSportKid_2, AdidasSportKid_3, AdidasSportKid_4],
         category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716657445448,
         bestseller: false
     },
     {
         _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [],
+        name: "Fila Panache Children",
+        description: "Fila Panache Children",
+        price: 35,
+        image: [FilaKid_1, FilaKid_2, FilaKid_3, FilaKid_4],
         category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716658545448,
         bestseller: false
     },
     {
         _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [],
+        name: "Adidas Originals Forum Bold Shoes",
+        description: "Adidas Originals Forum Bold Shoes",
+        price: 90,
+        image: [AdidasBoldWomen_1, AdidasBoldWomen_2, AdidasBoldWomen_3, AdidasBoldWomen_4],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Classic-trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716659645448,
         bestseller: false
     },
     {
         _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [],
+        name: "Nike Victori Slides",
+        description: "Nike Victori Slides",
+        price: 30,
+        image: [NikeVictoriSlide_1, NikeVictoriSlide_2, NikeVictoriSlide_3, NikeVictoriSlide_4],
         category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Flip-flops",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716660745448,
         bestseller: false
     },
     {
         _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [],
+        name: "Lacoste L003 2K24",
+        description: "Lacoste L003 2K24",
+        price: 140,
+        image: [Lacoste2024_1, Lacoste2024_2, Lacoste2024_3, Lacoste2024_4],
         category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716661845448,
         bestseller: false
     },
     {
         _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [],
+        name: "Reebok Classic Leather Infant",
+        description: "Reebok Classic Leather Infant",
+        price: 30,
+        image: [ReebookInfant_1, ReebookInfant_2, ReebookInfant_3, ReebookInfant_4],
         category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI"],
         date: 1716662945448,
         bestseller: false
     },
     {
         _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 330,
-        image: [],
+        name: "On Running Cloudmonster",
+        description: "On Running Cloudmonster",
+        price: 160,
+        image: [OnRunningMonster_1, OnRunningMonster_2, OnRunningMonster_3, OnRunningMonster_4],
         category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Trainers",
+        sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716664045448,
         bestseller: false
     },
     {
         _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [],
+        name: "Adidas Originals SL 72 RS Junior",
+        description: "Adidas Originals SL 72 RS Junior",
+        price: 60,
+        image: [AdidasSLKid_1, AdidasSLKid_2, AdidasSLKid_3, AdidasSLKid_4],
         category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Classic-trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716665145448,
         bestseller: false
     },
     {
         _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 340,
-        image: [],
+        name: "Reebok Classic Nylon Junior",
+        description: "Reebok Classic Nylon Junior",
+        price: 45,
+        image: [ReebookNylonKid_1, ReebookNylonKid_2, ReebookNylonKid_3, ReebookNylonKid_4],
         category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
+        subCategory: "Classic-trainers",
+        sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
+        date: 1716666245448, 
+        bestseller: false
     },
     {
         _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [],
+        name: "Adidas Originals Superstar XLG Star Wars",
+        description: "Adidas Originals Superstar XLG Star Wars",
+        price: 130,
+        image: [AdidasSuperstar_1, AdidasSuperstar_2, AdidasSuperstar_3, AdidasSuperstar_4],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Classic-trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716667345448,
         bestseller: false
     },
     {
         _id: "aaabz",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 350,
-        image: [],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Converse Run Star Trainer Women's",
+        description: "Converse Run Star Trainer Women's",
+        price: 80,
+        image: [ConverseStarWomen_1, ConverseStarWomen_2, ConverseStarWomen_3, ConverseStarWomen_4],
+        category: "Women",
+        subCategory: "Trainers",
+        sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716668445448,
         bestseller: false
     }
