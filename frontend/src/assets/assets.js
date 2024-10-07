@@ -261,7 +261,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716634345448,
-        bestseller: false
+        bestseller: false,
+        info: "A street icon has landed in a much-hyped style with these men's Air Max 95 trainers by Nike. In an exclusive Iron Grey colourway with Baltic Blue accents that's guaranteed to fly out, these legendary sneakers have a durable overlayed upper with airy mesh, leather and synthetics for lasting wear. They have a lace-up fastening with padding around the ankle collar for a locked-in fit, and sit atop a lightweight foam midsole with Max Air cushioning underfoot for unbeatable comfort. With a tough rubber outsole for total traction, they're finished with signature Swoosh and Air Max branding throughout."
     },
     {
         _id: "aaaab",
@@ -273,19 +274,21 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716623345448,
-        bestseller: true
+        bestseller: true,
+        info: "A classic gets reimagined in a bold way with these women's Gazelle Bold trainers from adidas Originals. In a Green colourway, these kicks have a smooth but durable suede upper that delivers a premium vibe. They feature a lace fastening for a snug, secure fit, and a low-cut padded ankle for a streamlined style. Underfoot, a chunky midsole provides cushioned comfort with added elevation, and a rubber outsole keeps you gripped to the streets. Signed off with the 3-Stripes to the sidewalls."
     },
     {
         _id: "aaaac",
         name: "Adidas Originals Gazelle",
-        description: "adidas Originals Gazelle",
+        description: "Adidas Originals Gazelle",
         price: 85,
         image: [AdidasGaz_1,AdidasGaz_2,AdidasGaz_3,AdidasGaz_4],
         category: "Men",
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716234545448,
-        bestseller: false
+        bestseller: false,
+        info: "Lace up in timeless adidas Originals style with these men's Gazelle trainers. The soft suede upper comes in a Grey Two colourway for premium feels. They have a textile lining and a cushioned insole, sat above the classic Gum 3 rubber tread for lasting grip. Finished off with the 3-Stripes to the sidewalls and Trefoil branding at the heel and tongue."
     },
     {
         _id: "aaaad",
@@ -297,7 +300,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: true,
+        info: "Lace up in classic style with these men's 1906R trainers from New Balance. In a Grey and Black colourway, these retro-inspired kicks have an airy mesh upper with synthetic overlays for lasting wear. They feature a tonal lace-up fastening and padding around the ankle collar for a supportive fit, and sit above an ABZORB midsole for cushioned comfort. With Stability Web technology for added arch support and a grippy N-ergy rubber tread or traction, they're signed off with bold New Balance branding throughout."
     },
     {
         _id: "aaaae",
@@ -309,7 +313,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716622345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaaf",
@@ -321,7 +326,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716623423448,
-        bestseller: true
+        bestseller: true,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaag",
@@ -333,7 +339,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621542448,
-        bestseller: true
+        bestseller: true,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaah",
@@ -345,7 +352,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716622345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaai",
@@ -357,7 +365,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716621235448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaaj",
@@ -369,7 +378,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716622235448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaak",
@@ -381,7 +391,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716621345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaal",
@@ -393,7 +404,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716624445448,
-        bestseller: true
+        bestseller: true,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaam",
@@ -405,7 +417,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI"],
         date: 1716625545448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaan",
@@ -417,7 +430,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716626645448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaao",
@@ -429,7 +443,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716627745448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaap",
@@ -441,7 +456,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716628845448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaaq",
@@ -453,7 +469,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716629945448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaar",
@@ -465,7 +482,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716631045448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaas",
@@ -477,7 +495,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716632145448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaat",
@@ -489,7 +508,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716633245448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaau",
@@ -501,7 +521,8 @@ export const products = [
         subCategory: "Boots",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716634345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaav",
@@ -513,7 +534,8 @@ export const products = [
         subCategory: "Boots",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716635445448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaaw",
@@ -525,7 +547,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716636545448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaax",
@@ -537,7 +560,8 @@ export const products = [
         subCategory: "Boots",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716637645448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaay",
@@ -549,7 +573,8 @@ export const products = [
         subCategory: "Hi-tops",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716638745448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaaz",
@@ -561,7 +586,8 @@ export const products = [
         subCategory: "Hi-tops",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716639845448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaba",
@@ -573,7 +599,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716640945448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabb",
@@ -585,7 +612,8 @@ export const products = [
         subCategory: "Hi-tops",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716642045448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabc",
@@ -597,7 +625,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716643145448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabd",
@@ -609,7 +638,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716644245448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabe",
@@ -621,7 +651,8 @@ export const products = [
         subCategory: "Hi-tops",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716645345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabf",
@@ -633,7 +664,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716646445448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabg",
@@ -645,7 +677,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716647545448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabh",
@@ -657,7 +690,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716648645448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabi",
@@ -669,7 +703,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716649745448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabj",
@@ -681,7 +716,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716650845448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabk",
@@ -693,7 +729,8 @@ export const products = [
         subCategory: "Boots",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716651945448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabl",
@@ -705,7 +742,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716653045448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabm",
@@ -717,7 +755,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716654145448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabn",
@@ -729,7 +768,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716655245448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabo",
@@ -741,7 +781,8 @@ export const products = [
         subCategory: "Boots",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716656345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabp",
@@ -753,7 +794,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716657445448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabq",
@@ -765,7 +807,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716658545448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabr",
@@ -777,7 +820,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716659645448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabs",
@@ -789,7 +833,8 @@ export const products = [
         subCategory: "Flip-flops",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716660745448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabt",
@@ -801,7 +846,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716661845448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabu",
@@ -813,7 +859,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI"],
         date: 1716662945448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabv",
@@ -825,7 +872,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["7","7.5", "8", "8.5", "9", "9.5", "10"],
         date: 1716664045448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabw",
@@ -837,7 +885,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716665145448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabx",
@@ -849,7 +898,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["2 CHI", "2.5 CHI", "4.5 CHI","6.5 CHI", "7 CHI", "7.5 CHI", "8 CHI", "10 CHI"],
         date: 1716666245448, 
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaaby",
@@ -861,7 +911,8 @@ export const products = [
         subCategory: "Classic-trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716667345448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     },
     {
         _id: "aaabz",
@@ -873,7 +924,8 @@ export const products = [
         subCategory: "Trainers",
         sizes: ["5", "5.5", "6","6.5", "7", "7.5", "8"],
         date: 1716668445448,
-        bestseller: false
+        bestseller: false,
+        info: "Elevate your style and comfort with our latest collection of sneakers. Designed for both casual wear and performance, these sneakers offer a perfect blend of durability, flexibility, and sleek aesthetics"
     }
 
 ]
