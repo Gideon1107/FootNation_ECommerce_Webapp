@@ -18,7 +18,10 @@ const ShopContextProvider = (props) => {
     const addToCart = async (itemId, size) => {
 
         if (!size) {
-            toast.error('Select Product Size')
+            toast.error('Select Product Size', {
+                hideProgressBar: true,
+                autoClose: 2000
+              })
             return;
         }
 
@@ -36,6 +39,10 @@ const ShopContextProvider = (props) => {
         }
 
         setCartItem(cartData)
+        toast.success('Item added to basket', {
+            hideProgressBar: true,
+            autoClose: 2000
+          })
 
     }
 
