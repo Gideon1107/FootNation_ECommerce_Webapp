@@ -30,6 +30,7 @@ const listProduct = async (req,res) => {
 }
 
 
+
 // Function for removing product
 const removeProduct = async (req,res) => {
 
