@@ -16,6 +16,7 @@ const addProduct = async (req,res) => {
         console.log(image1, image2, image3, image4)
 
         res.json({})
+        
 
     } catch (error) {
         console.log(error);
