@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <p className='text-l font-medium mb-5'>COMPANY</p>
+                <p className='text-l font-medium mb-5'>CUSTOMER HELP & INFO</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
                     <li>Home</li>
                     <li>About us</li>
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <p className='text-l font-medium mb-5'>GET IN TOUCH</p>
+                <p className='text-l font-medium mb-5'>CONTACT</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
                     <li>+44-7828-764-625</li>
                     <li>contact@footnation.com</li>
