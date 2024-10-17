@@ -36,7 +36,7 @@ useEffect(() => {
           <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll jusify-between sm:justify-normal sm:w-[18.7%] w-full'>
             {
               productData.image.map((item, index) => (
-                <img onClick={() => setImage(item)} src={item} key={index} className='w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer' alt="product_image" />
+                <img onClick={() => setImage(item)} src={item} key={index} className='w-[24%] mr-2 sm:w-full sm:mb-2 flex-shrink-0 cursor-pointer' alt="product_image" />
               ))
             }
           </div>
@@ -48,7 +48,7 @@ useEffect(() => {
         {/* ----------- Product Information ---------------- */}
         <div className='flex-1'>
             <h1 className='font-medium text-2xl mt-2'>{productData.name}</h1>
-            <div className='flex items-center gap-1 mt-2'>
+            <div className='flex items-center gap-1 mt-2 '>
               <img src={assets.star_icon} alt="" className="w-3 5" />
               <img src={assets.star_icon} alt="" className="w-3 5" />
               <img src={assets.star_icon} alt="" className="w-3 5" />
@@ -60,7 +60,7 @@ useEffect(() => {
             <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
             <div className='flex flex-col gap-4 my-8'>
               <p>Select Size</p>
-              <div className='flex gap-2'>
+              <div className='grid grid-cols-5 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-9 gap-4 gap-y-6'>
                 {productData.sizes.map((item, index) => (
                     <button onClick={() => setSize(item)} className={`border py-2 px-4 bg-gray-200 ${ item === size ? 'border-orange-500' : '' }`} key={index}>{item}</button>
                   ))}
