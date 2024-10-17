@@ -60,9 +60,9 @@ useEffect(() => {
             <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
             <div className='flex flex-col gap-4 my-8'>
               <p>Select Size</p>
-              <div className='grid grid-cols-5 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-9 gap-4 gap-y-6'>
+              <div className='grid grid-cols-5 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-4 gap-y-6'>
                 {productData.sizes.map((item, index) => (
-                    <button onClick={() => setSize(item)} className={`border py-2 px-4 bg-gray-200 ${ item === size ? 'border-orange-500' : '' }`} key={index}>{item}</button>
+                    <button onClick={() => setSize(item)} className={`flex items-center justify-center border py-2 px-4 bg-gray-200 ${ item === size ? 'border-orange-500' : '' }`} key={index}>{item}</button>
                   ))}
               </div>
             </div>
