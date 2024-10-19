@@ -1,8 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import { useState } from 'react'
+import axios from 'axios'
+import { backendUrl } from '../App'
+import { toast } from 'react-toastify'
 
-const Add = () => {
+const Add = ({token}) => {
 
 
     const [image1, setImage1] = useState(false)
@@ -19,11 +22,58 @@ const Add = () => {
     const [bestseller, setBestseller] = useState(false)
     const [sizes, setSizes] = useState([]);
 
+    const onSubmitHandler = async (e) => {
+        e.preventDefault();
+
+        const toastSetting ={
+            hideProgressBar: true,
+            autoClose: 2000
+          }
+
+        try {
+            const formData = new FormData()
+            formData.append("name", name)
+            formData.append("description", description)
+            formData.append("info", info)
+            formData.append("price", price)
+            formData.append("category", category)
+            formData.append("subCategory", subCategory)
+            formData.append("bestseller", bestseller)
+            formData.append("sizes", JSON.stringify(sizes))
+
+            image1 && formData.append("image1", image1)
+            image2 && formData.append("image2", image2)
+            image3 && formData.append("image3", image3)
+            image4 && formData.append("image4", image4)
+            
+            const response = await axios.post(backendUrl + "/api/product/add", formData, {headers: {token}})
+
+            if (response.data.success) {
+                toast.success(response.data.message, toastSetting)
+                setName("")
+                setDescription("")
+                setInfo("")
+                setPrice("")
+                setImage1(false)
+                setImage2(false)
+                setImage3(false)
+                setImage4(false)
+                setSizes([])
+            } else {
+                toast.error(response.data.message, toastSetting)
+            }
+
+        } catch (error) {
+            console.log(error.message);
+            toast.error(error.message, toastSetting)
+        }
+    }
+
 
 
 
   return (
-    <form className='flex flex-col w-full items-start gap-3'>
+    <form onSubmit={onSubmitHandler} className='flex flex-col w-full items-start gap-3'>
         <div>
             <p className='mb-2'>Upload Image</p>
 
@@ -97,77 +147,77 @@ const Add = () => {
             <p className='mb-2'>Product Sizes</p>
             <div className='flex flex-wrap gap-3'>
                 <div onClick={() => setSizes(prev => prev.includes("2") ? prev.filter(item => item !== "2") : [...prev, "2"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>2</p>
+                    <p className={` text-center ${sizes.includes("2") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>2</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("2.5") ? prev.filter(item => item !== "2.5") : [...prev, "2.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>2.5</p>
+                    <p className={` text-center ${sizes.includes("2.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>2.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("3") ? prev.filter(item => item !== "3") : [...prev, "3"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>3</p>
+                    <p className={` text-center ${sizes.includes("3") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>3</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("3.5") ? prev.filter(item => item !== "3.5") : [...prev, "3.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>3.5</p>
+                    <p className={` text-center ${sizes.includes("3.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>3.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("4") ? prev.filter(item => item !== "4") : [...prev, "4"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>4</p>
+                    <p className={` text-center ${sizes.includes("4") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>4</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("4.5") ? prev.filter(item => item !== "4.5") : [...prev, "4.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>4.5</p>
+                    <p className={` text-center ${sizes.includes("4.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>4.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("5") ? prev.filter(item => item !== "5") : [...prev, "5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>5</p>
+                    <p className={` text-center ${sizes.includes("5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("5.5") ? prev.filter(item => item !== "5.5") : [...prev, "5.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>5.5</p>
+                    <p className={` text-center ${sizes.includes("5.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>5.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("6") ? prev.filter(item => item !== "6") : [...prev, "6"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>6</p>
+                    <p className={` text-center ${sizes.includes("6") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>6</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("6.5") ? prev.filter(item => item !== "6.5") : [...prev, "6.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>6.5</p>
+                    <p className={` text-center ${sizes.includes("6.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>6.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("7") ? prev.filter(item => item !== "7") : [...prev, "7"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>7</p>
+                    <p className={` text-center ${sizes.includes("7") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>7</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("7.5") ? prev.filter(item => item !== "7.5") : [...prev, "7.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>7.5</p>
+                    <p className={` text-center ${sizes.includes("7.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>7.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("8") ? prev.filter(item => item !== "8") : [...prev, "8"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>8</p>
+                    <p className={` text-center ${sizes.includes("8") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>8</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("8.5") ? prev.filter(item => item !== "8.5") : [...prev, "8.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>8.5</p>
+                    <p className={` text-center ${sizes.includes("8.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>8.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("9") ? prev.filter(item => item !== "9") : [...prev, "9"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>9</p>
+                    <p className={` text-center ${sizes.includes("9") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>9</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("9.5") ? prev.filter(item => item !== "9.5") : [...prev, "9.5"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>9.5</p>
+                    <p className={` text-center ${sizes.includes("9.5") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>9.5</p>
                 </div>
 
                 <div onClick={() => setSizes(prev => prev.includes("10") ? prev.filter(item => item !== "10") : [...prev, "10"])}>
-                    <p className='text-center bg-slate-200 px-3 py-1 cursor-pointer'>10</p>
+                    <p className={` text-center ${sizes.includes("10") ? "bg-green-300" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>10</p>
                 </div>
             </div>
         </div>
 
         <div className='flex gap-2 mt-2'>
-            <input type="checkbox" id='bestseller' />
+            <input onChange={() => setBestseller(prev => !prev)} checked={bestseller} type="checkbox" id='bestseller' />
             <label className='cursor-pointer' htmlFor="bestseller">Add to bestseller</label>
         </div>
 
