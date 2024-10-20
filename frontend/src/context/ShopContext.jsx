@@ -10,6 +10,7 @@ const ShopContextProvider = (props) => {
 
     const currency = '£';
     const delivery_fee = 5.00;
+    const backendUrl = import.meta.env.VITE_BACKEND_URL
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
     const [cartItems, setCartItem] = useState({});
@@ -55,7 +56,7 @@ const ShopContextProvider = (props) => {
                         totalCount += cartItems[items][item];
                     }
                 } catch (error) {
-                    
+                    console.log(error)
                 }
            }
         }
@@ -78,7 +79,7 @@ const ShopContextProvider = (props) => {
                         totalAmount += itemInfo.price * cartItems[items][item]
                     }
                 } catch (error) {
-                    
+                    console.log(error)
                 }
             }
         }
@@ -89,7 +90,7 @@ const ShopContextProvider = (props) => {
         products, currency, delivery_fee, search, 
         setSearch, showSearch, setShowSearch,
         cartItems, addToCart, getCartCount, updateQuantity,
-        getCartAmount, navigate
+        getCartAmount, navigate, backendUrl
     }
 
     return (

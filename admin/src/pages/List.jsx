@@ -4,7 +4,7 @@ import { backendUrl, currency } from '../App'
 import { toast } from 'react-toastify'
 import { assets } from '../assets/assets'
 
-const List = () => {
+const List = ({token}) => {
 
   const [list, setList] = useState([])
 
@@ -28,6 +28,28 @@ const List = () => {
       console.log(error)
       toast.error(error.message, toastSetting)
     }
+  }
+
+  const removeProduct = async (id) => {
+
+    const toastSetting ={
+      hideProgressBar: true,
+      autoClose: 2000
+    }
+
+      try {
+        const response = await axios.post(backendUrl + "/api/product/remove", {id}, {headers: {token}})
+        if (response.data.success) {
+          toast.success(response.data.message, toastSetting)
+          await fetchList();
+        } else {
+          toast.error(response.data.message)
+        }
+      } catch (error) {
+        console.log(error)
+        toast.error(error.message, toastSetting)
+        
+      }
   }
 
   useEffect(() => {
@@ -57,7 +79,7 @@ const List = () => {
                 <p>{item.name}</p>
                 <p>{item.category}</p>
                 <p>{currency}{item.price}</p>
-                <img className='w-3 cursor-pointer float-right md:mx-auto block md:w-4' src={assets.delete_icon} alt="" />
+                <img onClick={() => removeProduct(item._id)} className='w-3 cursor-pointer float-right md:mx-auto block md:w-4' src={assets.delete_icon} alt="" />
                 {/* <p className='text-right md:text-center cursor-pointer text-lg'>X</p> */}
             </div>
           ))

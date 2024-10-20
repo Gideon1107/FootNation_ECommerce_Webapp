@@ -101,18 +101,18 @@ const Add = ({token}) => {
         </div>
 
         <div className='w-full'>
-            <p className='mb-2'>Product name</p>
+            <p className='mb-1'>Product name</p>
             <input onChange={(e) => setName(e.target.value)} value={name} className='w-full max-w-[500px] px-3 py-2 placeholder:text-sm' type="text"  placeholder='Type here' required/>
         </div>
 
 
         <div className='w-full'>
-            <p className='mb-2'>Product description</p>
+            <p className='mb-1'>Product description</p>
             <textarea onChange={(e) => setDescription(e.target.value)} value={description} className='w-full max-w-[500px] px-3 py-2 placeholder:text-sm' type="text"  placeholder='Write content here' required/>
         </div>
 
         <div className='w-full'>
-            <p className='mb-2'>Product Information</p>
+            <p className='mb-1'>Product Information</p>
             <textarea onChange={(e) => setInfo(e.target.value)} value={info} className='w-full max-w-[500px] px-3 py-2 placeholder:text-sm' type="text"  placeholder='Write content here' required/>
         </div>
 
