@@ -101,7 +101,10 @@ const ShopContextProvider = (props) => {
             }
         } catch (error) {
             console.log(error);
-            toast.error(error.message)
+            toast.error(error.message, {
+                hideProgressBar: true,
+                autoClose: 2000
+              })
         }
     }
 
@@ -109,7 +112,11 @@ const ShopContextProvider = (props) => {
         getProductData()
     },[])
 
-    
+    useEffect(() => {
+        if (!token && localStorage.getItem('token')) {
+            setToken(localStorage.getItem('token'))
+        }
+    },[])
 
     const value = {
         products, currency, delivery_fee, search, 
