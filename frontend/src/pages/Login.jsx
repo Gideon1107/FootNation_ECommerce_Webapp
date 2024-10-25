@@ -20,7 +20,7 @@ const Login = () => {
       event.preventDefault();
       try {
         if (currentState === "SIGN UP") {
-          const response = await axios.post(backendUrl + "/api/user/register", {name,email,password})
+          const response = await axios.post(backendUrl + '/api/user/register', {name,email,password})
           if (response.data.success) {
             setToken(response.data.token)
             localStorage.setItem('token', response.data.token)
@@ -28,7 +28,7 @@ const Login = () => {
             toast.error(response.data.message, toastSettings)
           }
         } else {
-          const response = await axios.post(backendUrl + "/api/user/login", {email,password})
+          const response = await axios.post(backendUrl + '/api/user/login', {email,password})
           if (response.data.success) {
             setToken(response.data.token)
             localStorage.setItem('token', response.data.token)
