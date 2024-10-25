@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
-import axios from 'axios'
+import axios, { Axios } from 'axios'
 import { backendUrl, currency } from '../App'
 import { toast } from 'react-toastify'
 import { assets } from '../assets/assets'
@@ -29,6 +29,17 @@ const Orders = ({ token }) => {
 
   }
 
+  const statusHandler = async (event, orderId) => {
+    try {
+      const response = await axios.post(backendUrl + "/api/order/status", {orderId, status:event.target.value}, {headers: {token}})
+      if (response.data.success) {
+        await fetchAllOrders()
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
 
   useEffect(() => {
     fetchAllOrders();
@@ -47,9 +58,9 @@ const Orders = ({ token }) => {
                 <div>
                   {order.items.map((item, index) => {
                     if (index === order.items.length - 1) {
-                      return <p className='py-0.5' key={index}>{item.name} x {item.quantity} <span className='ml-1 font-semibold'>{item.size}</span></p>
+                      return <p className='py-0.5' key={index}>{item.name} x {item.quantity} <span className='ml-1 font-semibold'>Size: {item.size}</span></p>
                     } else {
-                      return <p className='py-0.5' key={index}>{item.name} x {item.quantity} <span className='ml-1 font-semibold'>{item.size}</span>,</p>
+                      return <p className='py-0.5' key={index}>{item.name} x {item.quantity} <span className='ml-1 font-semibold'>Size: {item.size}</span>,</p>
                     }
                   })}
                 </div>
@@ -67,11 +78,11 @@ const Orders = ({ token }) => {
                 <p>Date: {new Date(order.date).toLocaleDateString()}</p>
               </div>
               <p className='text-sm sm:text-[15px]'>{currency}{order.amount}</p>
-              <select className='p-2 font-semibold'>
+              <select onChange={(event) => statusHandler(event, order._id)} value={order.status} className='p-2 font-semibold'>
                 <option value="Order Placed">Order Placed</option>
                 <option value="Packing">Packing</option>
                 <option value="Shipped">Shipped</option>
-                <option value="Out for Delivery">Out for Delivery</option>
+                <option value="Out for delivery">Out for delivery</option>
                 <option value="Delivered">Delivered</option>
               </select>
             </div>

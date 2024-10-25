@@ -3,7 +3,7 @@ import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
-import { toast } from 'react-toastify'
+import { toast, ToastContainer } from 'react-toastify'
 import axios from 'axios'
 
 const PlaceOrder = () => {
@@ -64,6 +64,18 @@ const PlaceOrder = () => {
           } else {
             toast.error(response.data.message)
           }
+          break;
+        }
+
+        case 'stripe': {
+          const responseStripe = await axios.post(backendUrl + '/api/order/stripe', orderData, {headers: {token}})
+          if (responseStripe.data.success) {
+            const {session_url} = responseStripe.data
+            window.location.replace(session_url)
+          } else {
+            toast.error(responseStripe.data.message)
+          }
+
           break;
         }
         default:
