@@ -10,6 +10,7 @@ const createToken = (id) => {
 
 //Route for user login
 const loginUser = async (req, res) => {
+    // console.log(req.method)
     try {
         const {email, password} = req.body;
 

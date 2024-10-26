@@ -1,13 +1,26 @@
-import React, { useContext, useState } from 'react'
+import {useEffect, useContext, useState } from 'react'
 import { assets } from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
 
     const [visible, setVisible] = useState(false);
 
     const {setShowSearch, getCartCount, navigate, token, setToken, setCartItems} = useContext(ShopContext);
+
+    const [showSearchIcon, setShowSearchIcon] = useState(false)
+    const location = useLocation();
+
+
+    useEffect(() => {
+        if (location.pathname.includes('collection')) {
+            setShowSearchIcon(true);
+        } else {
+            setShowSearchIcon(false)
+        }
+    },[location])
 
     const logout = () => {
         navigate('/login')
@@ -46,7 +59,7 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-6'>
-            <img onClick={() => setShowSearch(true)} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
+            { showSearchIcon ? <img onClick={() => setShowSearch(true)} src={assets.search_icon} className='w-5 cursor-pointer' alt="" /> : null}
 
             <div className='group relative'>
                 <img onClick={() => token ? null : navigate('/login')} src={assets.profile_icon} className='w-5 cursor-pointer' alt="" />
